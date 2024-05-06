@@ -22,7 +22,7 @@ app.get("/reviews", async (request, response) => {
 SELECT * FROM genre_junction
 JOIN reviews ON genre_junction.review_id = reviews.id
 JOIN genres ON genre_junction.genre_id = genres.id
-WHERE review_id = 1
+
 
     `);
   response.json(result.rows);
@@ -41,3 +41,5 @@ app.post("/review", async (request, response) => {
 });
 
 app.listen(8080, () => console.log("I am running on 8080"));
+
+//WHERE review_id = 1 put this after the JOIN to sort out tags
