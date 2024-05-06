@@ -1,8 +1,21 @@
+🐿️ As a user, I want to be able to create new posts and add them to the page
+🐿️ As a user, I want to be able to assign a category to each post
+🐿️ As a user, I want to be able to view all posts added on the page and the category they're in
+🐿️ As a user, I want to be able to view all posts in a specific category by visiting a dedicated page for that category (Stretch Goal)
+🐿️ As a user, I want to be able to add new categories (Stretch Goal)
+
+🎯 Design a database schema with relationships between tables. ACHEIVED.
+
+🎯 Create a new application with a React client and an Express server. Client fine, server error.
+
+🎯 Seed the database with data. Either run your SQL queries in Supabase SQL Editor OR use a seed.js file. ACHEIVED.
+
+🎯 Create Express endpoints to handle requests so you can POST and GET the data appropriately for your application. GET ACHEIVED, POST needs work.
+
+🎯 Create multiple pages using react-router-dom
+
+🎯 Create a home page.
+🎯 Create a page to show all the posts and use fetch to call your server to get your data.
+🎯 Create a page where users can create new posts using a form.
+
 # React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
