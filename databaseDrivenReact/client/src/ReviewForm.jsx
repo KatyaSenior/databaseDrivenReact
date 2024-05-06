@@ -10,7 +10,7 @@ export default function ReviewForm() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    fetch("http://localhost:8080/contestant", {
+    fetch("http://localhost:8080/review", {
       method: "POST",
       body: JSON.stringify(form),
       headers: {
